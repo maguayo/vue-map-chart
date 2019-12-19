@@ -2,6 +2,8 @@
 
 A Vue JS Component for displaying dynamic data on a world map.
 
+![preview](https://raw.githubusercontent.com/maguayo/vue-map-chart/master/preview/preview-world.png)
+
 
 ## Credits
 
@@ -40,7 +42,7 @@ Example:
 ``` javascript
 import MapChart from 'vue-map-chart'
 
-<Mapa
+<MapChart
   :countryData="{'US': 4, 'CA': 7, 'GB': 8, 'IE': 14, 'ES': 21}"
   highColor="#ff0000"
   lowColor="#aaaaaa"
