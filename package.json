@@ -35,5 +35,5 @@
     "test": "jest --config jest.conf.js",
     "test:watch": "npm run test -- --watch"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
