@@ -1,4 +1,4 @@
-# Vue World Map
+# Vue Map Chart
 
 A Vue JS Component for displaying dynamic data on a world map.
 
