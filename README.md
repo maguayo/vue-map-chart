@@ -1,4 +1,6 @@
 # Vue Map Chart
+![npm](https://img.shields.io/npm/dt/vue-map-chart)
+![NPM](https://img.shields.io/npm/l/vue-map-chart)
 
 A Vue JS Component for displaying dynamic data on a world map.
 
