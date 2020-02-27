@@ -1,6 +1,4 @@
 # Vue Map Chart
-![npm](https://img.shields.io/npm/dt/vue-map-chart)
-![NPM](https://img.shields.io/npm/l/vue-map-chart)
 
 A Vue JS Component for displaying dynamic data on a world map.
 
@@ -55,17 +53,22 @@ import MapChart from 'vue-map-chart'
 
 ## API
 
-| Props | Description | Optional |
+| Props | Description | Optional |Type|
 | --- | --- | --- |
-| countryData | See Usage Section above for details  | no |
-| lowColor | Countries with lower values will be colored more strongly with this color | yes |
-| highColor | Countries with higher values will be colored more strongly with this color | yes |
-| defaultCountryFillColor | Countries with no data will default to this color | yes |
-| countryStrokeColor | The color of the border around countries | yes |
-| legendBorderColor | (WIP) The color of the legend's border | WIP |
-| legendHeaderBackgroundColor | (WIP) The background color of the legend's header | WIP |
-| legendContentBackgroundColor | (WIP) The background color of the legend's content | WIP |
-| showLegend | (WIP) If true, when you select a country a legend will appear on the screen | WIP |
+| countryData | See Usage Section above for details  | no | Object |
+| lowColor | Countries with lower values will be colored more strongly with this color | yes | String|
+| highColor | Countries with higher values will be colored more strongly with this color | yes | String|
+| chromaScaleOn |If True chromaScale of color, if false countries with value will be filled of the hightColor. By default is True | yes | Boolean|
+| defaultCountryFillColor | Countries with no data will default to this color | yes |String |
+| countryStrokeColor | The color of the border around countries | yes | String|
+| legendBorderColor |  The color of the legend's border | yes | String|
+| legendBorderRadius |  The radius of the legend's border | yes |Number|
+| legendHeaderBackgroundColor |  The background color of the legend's header | yes |String|
+| legendContentBackgroundColor |  The background color of the legend's content | yes |String|
+| legendFontColorHeader |  The font color of the legend's header | yes |String|
+| legendFontColorContent |  The font color of the legend's content | yes |String|
+| legendBoxShadow |  If true, a box shadow is display | yes |Boolean|
+| showLegend | (WIP) If true, when you select a country a legend will appear on the screen | WIP |Boolean|
 
 
 ## Roadmap
