@@ -54,7 +54,7 @@ import MapChart from 'vue-map-chart'
 ## API
 
 | Props | Description | Optional |Type|
-| --- | --- | --- |
+| --- | --- | --- |--- |
 | countryData | See Usage Section above for details  | no | Object |
 | lowColor | Countries with lower values will be colored more strongly with this color | yes | String|
 | highColor | Countries with higher values will be colored more strongly with this color | yes | String|
@@ -69,6 +69,8 @@ import MapChart from 'vue-map-chart'
 | legendFontColorContent |  The font color of the legend's content | yes |String|
 | legendBoxShadow |  If true, a box shadow is display | yes |Boolean|
 | showLegend | (WIP) If true, when you select a country a legend will appear on the screen | WIP |Boolean|
+
+
 
 
 ## Roadmap
