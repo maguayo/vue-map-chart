@@ -148,8 +148,6 @@ export default {
 
 .vue-world-map {
   position: relative;
-  overflow: scroll;
-  height: 280px;
 }
 
 .vue-map-legend {
