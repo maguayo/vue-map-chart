@@ -104,20 +104,10 @@ export default {
       legend: legend,
       position: position,
       node: document.createElement("style"),
-      chromaScale: chroma.scale([
-        this.$props.lowColor,
-        this.$props.highColor,
-        this.$props.defaultCountryFillColor,
-        this.$props.legendHeaderBackgroundColor,
-        this.$props.legendContentBackgroundColor,
-        this.$props.legendFontColorHeader,
-        this.$props.legendFontColorContent,
-        this.$props.legendBorderColor,
-        this.$props.legendBorderRadius,
-        this.$props.legendBoxShadow
-      ])
+      chromaScale: chroma.scale([this.$props.lowColor, this.$props.highColor])
     };
   },
+
   methods: {
     onHoverCountry(country) {
       this.legend = country;
@@ -146,7 +136,6 @@ export default {
   mounted() {
     document.body.appendChild(this.$data.node);
     this.renderMapCSS();
-    this.legend.name = "AUS";
   }
 };
 </script>
@@ -159,6 +148,8 @@ export default {
 
 .vue-world-map {
   position: relative;
+  overflow: scroll;
+  height: 280px;
 }
 
 .vue-map-legend {
