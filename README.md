@@ -71,6 +71,11 @@ import MapChart from 'vue-map-chart'
 | showLegend | (WIP) If true, when you select a country a legend will appear on the screen | WIP |Boolean|
 
 
+| Events | Description | Parameter |
+| --- | ------------------------------------- | ----------- |
+| hoverCountry | Triggered when the device pointer hovers over a country | country object (from bound countryData prop) |
+| hoverLeaveCountry | Triggered when the device pointer stops hovering a country | (none) |
+
 
 
 ## Roadmap
